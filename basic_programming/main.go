@@ -3,14 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	age := 25
-	if age < 18 {
-		fmt.Println("You are a minor.")
-	} else if age >= 18 && age < 65 {
-		fmt.Println("You are an adult.")
-	}
+	var name string = "Dicky" // var name string
+	const pi float64 = 3.14   // const pi float64
+	age := 25                 // age := 25
 
-	for i := 0; i < 5; i++ {
-		fmt.Println("Current iteration:", i)
-	}
+	fmt.Println("Nama:", name)
+	fmt.Println("Pi:", pi)
+	fmt.Println("Umur:", age)
 }
